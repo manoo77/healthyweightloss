@@ -27,16 +27,13 @@ body {
  
 body 
 {
-background-image: url('http://localhost:4000/flexible-jekyll/assets/img/weight-loss-bg.jpg');
+background-image: url('https://thehealthyweightloss.netlify.app/assets/img/weight-loss-bg.jpg');
 padding-left: 4em;
 padding-right: 4em;
- 
 }*/
-
-
 body 
 {
-background-image: url("http://localhost:4000/flexible-jekyll/assets/img/weight-loss-bg.jpg");
+background-image: url("https://thehealthyweightloss.netlify.app/assets/img/weight-loss-bg.jpg");
 min-height: 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -69,8 +66,6 @@ h1 {
   color: #050505;
   font-weight: 900;
 }
-
-
 
 /* Grouping content
    ========================================================================== */
@@ -265,9 +260,6 @@ and added the width to 50% to the img  */
   align-items: center; /* Centers child vertically */
   /** text-align:justify;
   justify-content: center;*/
-   
-   
-  
 }
 
 .container-child {
@@ -277,21 +269,11 @@ and added the width to 50% to the img  */
   margin: auto;
   padding:10px;
 }
-
-
- 
-
-
   .background-image{
     height: 102px;
     position: relative;
     display: inline-block;
     }
-
-
-
-
-
 /**
  * Hide the overflow in IE.
  */
@@ -1200,15 +1182,6 @@ table tfoot td {
 }
 
 
-
-
-
-
-
-
-
-
-
 .post {
  
   /*max-width: 480px; */
@@ -1534,10 +1507,6 @@ a.newer-posts:hover {
       font-size: 10px;
       font-weight: 600;
     }
-
-   
-
-
 
   .sidebar {
     position: relative;
