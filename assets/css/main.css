@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-html {
+ html {
   line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
@@ -36,17 +36,30 @@ padding-right: 4em;
 
 body 
 {
-background-image: url("/assets/img/weight-loss-bg.jpg");
+
+background-image: none;
 min-height: 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
-padding-left: 4em;
-padding-right: 4em;
+
 }
 
- 
+/** the following is to make background image in div instead of body, and also make it not scrollable background image*/
+
+ .bg-div1 {
+  background-image: url("http://localhost:4000/flexible-jekyll/assets/img/weight-loss-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  display: table;
+}
+
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -71,6 +84,12 @@ h1 {
 }
 
 
+h2 {
+  font-size: 1.8vw;
+  margin: 0.67em 0;
+  color: #050505;
+  font-weight: 400;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -259,15 +278,11 @@ and added the width to 50% to the img  */
 }
 /** added this div to make the main div the contains all the aff link and it's image  scrollbar */
 .container-scroll {
- 
   display: flex; /* Make parent a flex-container */
   justify-content: center; /* Centers child horizontally */
   align-items: center; /* Centers child vertically */
   /** text-align:justify;
   justify-content: center;*/
-   
-   
-  
 }
 
 .container-child {
@@ -279,16 +294,12 @@ and added the width to 50% to the img  */
 }
 
 
- 
-
 
   .background-image{
     height: 102px;
     position: relative;
     display: inline-block;
     }
-
-
 
 
 
@@ -863,9 +874,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  font-weight: 400;
-}
+
 
 img {
   max-width: 100%;
@@ -1251,7 +1260,7 @@ table tfoot td {
   max-width: 100%;
   max-height: 6rem;
   -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
   background-position: 50% 50%;
   
 }
@@ -1268,14 +1277,14 @@ table tfoot td {
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
 }
 
 
 .post .post-content p {
   margin-top: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -1502,13 +1511,15 @@ a.newer-posts:hover {
 
   .post .post-content {
     width: 70%;
-     
+    font-size:14px;
+    font-weight: 400;
   }
   .post .post-content .post-title {
     margin: 0 0 5px;
   }
   .post .post-content .post-title a {
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 600;
   }
   .sidebar footer {
     margin-bottom: 10px;
@@ -1528,15 +1539,13 @@ a.newer-posts:hover {
 
     .post .post-content {
       width: 98%;
-      font-size:10px;
+      font-size:14px;
+      font-weight: 400;
     }
     .post .post-content .post-title {
-      font-size: 10px;
+      font-size: 16px;
       font-weight: 600;
     }
-
-   
-
 
 
   .sidebar {
@@ -1620,15 +1629,17 @@ a.newer-posts:hover {
   }
   .post .post-content {
     width: 100%;
-    font-size:12px;
+    font-size:14px;
+    font-weight: 400;
   }
   .post .post-content .post-title {
     margin: 0 0 5px;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    
   }
   .post .post-content .post-title a {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
   }
   .sidebar footer {
     margin-bottom: 5px;
