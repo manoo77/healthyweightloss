@@ -278,6 +278,14 @@ and added the width to 50% to the img  */
 }
 
 
+.container-child-2 {
+  justify-content: center;*/
+  width: 100%;
+  margin: auto;
+  padding:10px;
+}
+
+
 
   .background-image{
     height: 102px;
