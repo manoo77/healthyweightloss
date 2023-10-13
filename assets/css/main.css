@@ -274,7 +274,7 @@ and added the width to 50% to the img  */
   justify-content: center;*/
   width: 480px;
   margin: auto;
-  padding:10px;
+  padding:20px;
 }
 
 
@@ -282,7 +282,7 @@ and added the width to 50% to the img  */
   justify-content: center;*/
   width: 100%;
   margin: auto;
-  padding:30px;
+  padding:50px;
 }
 
 
@@ -1516,6 +1516,12 @@ a.newer-posts:hover {
   .sidebar footer {
     margin-bottom: 10px;
   }
+   .container-child-2 {
+  /** padding: 1rem 1rem;
+  justify-content: center;*/
+  width: 100%;
+  margin: auto;
+  padding:40px;
 }
 
 /* Small Devices, Tablets */
@@ -1598,6 +1604,12 @@ a.newer-posts:hover {
   .contact-title, .copyright {
     display: none;
   }
+   .container-child-2 {
+  /** padding: 1rem 1rem;
+  justify-content: center;*/
+  width: 100%;
+  margin: auto;
+  padding:40px;
 }
 
 /* Extra Small Devices, Phones */
@@ -1636,4 +1648,10 @@ a.newer-posts:hover {
   .sidebar footer {
     margin-bottom: 5px;
   }
+   .container-child-2 {
+  /** padding: 1rem 1rem;
+  justify-content: center;*/
+  width: 100%;
+  margin: auto;
+  padding:30px;
 }
