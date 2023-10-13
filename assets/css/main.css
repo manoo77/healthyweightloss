@@ -17,39 +17,23 @@
 
 /* Sections
    ========================================================================== */
-/**
- * Remove the margin in all browsers (opinionated).
- 
-body {
-  margin: 0;
- 
-}
- 
-body 
-{
-background-image: url('http://localhost:4000/flexible-jekyll/assets/img/weight-loss-bg.jpg');
-padding-left: 4em;
-padding-right: 4em;
- 
-}*/
+
 
 
 body 
 {
-
 background-image: none;
 min-height: 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
-
 }
 
 /** the following is to make background image in div instead of body, and also make it not scrollable background image*/
 
  .bg-div1 {
-  background-image: url("http://localhost:4000/flexible-jekyll/assets/img/weight-loss-bg.jpg");
+  background-image: url("https://thehealthyweightloss.netlify.app/assets/img/weight-loss-bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
