@@ -25,6 +25,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
+position: relative;
 }
 
 /** the following is to make background image in div instead of body, and also make it not scrollable background image*/
@@ -38,7 +39,7 @@ background-size: cover;
   height: 100%; 
   width: 100%;
   display: table;
-    overflow-x: hidden;
+overflow-x: hidden;
 }
 
 /**
