@@ -33,7 +33,7 @@ background-size: cover;
 /** the following is to make background image in div instead of body, and also make it not scrollable background image*/
 
  .bg-div1 {
-  background-image: url("https://thehealthyweightloss.netlify.app/assets/img/weight-loss-bg.jpg");
+  background-image: url("/assets/img/weight-loss-bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1199,15 +1199,6 @@ table tfoot td {
   float:left; 
   clear: left;
 }
-
-
-
-
-
-
-
-
-
 
 
 .post {
