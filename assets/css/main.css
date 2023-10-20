@@ -9,7 +9,7 @@
  html {
   line-height: 1.15;
   /* 1 */
-  -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; 
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
@@ -1680,7 +1680,7 @@ h1 {
   }
 
 h1 {
-  font-size: 4.5vw;
+  font-size: 5.5vw;
   margin: 0.67em 0;
   color: #050505;
   font-weight: 900;
