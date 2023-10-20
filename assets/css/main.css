@@ -17,9 +17,6 @@
 
 /* Sections
    ========================================================================== */
-
-
-
 body 
 {
 background-image: none;
@@ -42,7 +39,6 @@ background-size: cover;
   width: 100%;
   display: table;
 }
-
 
 /**
  * Add the correct display in IE 9-.
@@ -1610,7 +1606,7 @@ a.newer-posts:hover {
     padding: 10px;
   }
   .post {
-    width:95%;
+    width:90%;
     max-width: 100%;
     /*margin: 2%;*/
     -webkit-box-orient: vertical;
@@ -1628,9 +1624,15 @@ a.newer-posts:hover {
     font-size:14px;
     font-weight: 400;
   }
+
+.header-page .page-title {
+   font-size:16px;
+  font-weight:  800;
+  }
+   
   .post .post-content .post-title {
     margin: 0 0 5px;
-    font-size: 18px;
+    font-size: 16px;
    font-weight: 800;
     
   }
