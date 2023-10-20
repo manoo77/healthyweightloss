@@ -1610,7 +1610,7 @@ a.newer-posts:hover {
     padding: 10px;
   }
   .post {
-    width: 65%;
+    width:95%;
     max-width: 100%;
     /*margin: 2%;*/
     -webkit-box-orient: vertical;
@@ -1630,7 +1630,8 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title {
     margin: 0 0 5px;
-    font-size: 14px;
+    font-size: 18px;
+   font-weight: 800;
     
   }
   .post .post-content .post-title a {
