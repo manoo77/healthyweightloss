@@ -1664,7 +1664,7 @@ h1 {
     padding: 5px;
   }
   .post {
-    width:83%;
+    width:78%;
     max-width: 100%;
     /*margin: 2%;*/
     -webkit-box-orient: vertical;
@@ -1683,9 +1683,6 @@ h1 {
     font-weight: 400;
   }
 
-   .bg-div1 {
-  width:50%;
-       }
    
 h1 {
   font-size: 19px;
