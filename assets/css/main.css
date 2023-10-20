@@ -1667,7 +1667,7 @@ h1 {
     padding: 5px;
   }
   .post {
-    width:78%;
+    width:100%;
     max-width: 100%;
     /*margin: 2%;*/
     -webkit-box-orient: vertical;
