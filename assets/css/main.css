@@ -1633,7 +1633,6 @@ h1 {
 }
 
 .bg-div1 {
-     
   width:70%;
        }
 
@@ -1680,12 +1679,16 @@ h1 {
   }
   .post .post-content {
     width: 100%;
-    font-size:14px;
+    font-size:18px;
     font-weight: 400;
   }
 
+   .bg-div1 {
+  width:70%;
+       }
+   
 h1 {
-  font-size: 5.5vw;
+  font-size: 19px;
   margin: 0.67em 0;
   color: #050505;
   font-weight: 900;
