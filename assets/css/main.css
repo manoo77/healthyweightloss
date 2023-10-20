@@ -249,7 +249,7 @@ and added the width to 50% to the img  */
   display: flex;
   justify-content: center;
   border-style: none;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.2rem;
   margin-top: 1.5rem;
 }
 
