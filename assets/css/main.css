@@ -1632,11 +1632,6 @@ h1 {
   font-weight: 900;
 }
 
-
-
-
-   
-   
   .post .post-content .post-title {
     margin: 0 0 5px;
     font-size: 16px;
@@ -1657,3 +1652,61 @@ h1 {
   margin: auto;
   padding:30px;
 }
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width:  320px) {
+  .content-box {
+    padding: 5px;
+  }
+  .post {
+    width:83%;
+    max-width: 100%;
+    /*margin: 2%;*/
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 1.5rem;
+  }
+  .post .post-thumbnail {
+    width: 100%;
+  }
+  .post .post-content {
+    width: 100%;
+    font-size:14px;
+    font-weight: 400;
+  }
+
+h1 {
+  font-size: 4.5vw;
+  margin: 0.67em 0;
+  color: #050505;
+  font-weight: 900;
+}
+
+  .post .post-content .post-title {
+    margin: 0 0 5px;
+    font-size: 16px;
+   font-weight: 800;
+    
+  }
+  .post .post-content .post-title a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .sidebar footer {
+    margin-bottom: 5px;
+  }
+   .container-child-2 {
+  /** padding: 1rem 1rem;
+  justify-content: center;*/
+  width: 100%;
+  margin: auto;
+  padding:30px;
+}
+
+
+
+  
