@@ -47,6 +47,17 @@ body {
      font-weight: normal;
      overflow-x: hidden;
 	background-image: url(../images/weight-loss-bg.jpg);
+	
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  display: table;
+	
+	
+	
 }
 
 a {
