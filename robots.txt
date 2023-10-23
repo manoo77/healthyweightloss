@@ -1,1 +1,1 @@
-Sitemap: https://thehealthyweightloss.netlify.app/sitemap.xml
+Sitemap: thehealthyweightloss.netlify.app/sitemap.xml
