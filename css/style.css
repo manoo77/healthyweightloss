@@ -705,7 +705,7 @@ button {
     float: left;
     background-color: #171717;
     height: auto;
-    padding: 80px 0px;
+    padding: 10px 0px;
 }
 
 
@@ -722,7 +722,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    padding: 50px 80px;
+    padding: 10px 10px;
 }
 .footer_location_text li a{
     color: #ffffff;
