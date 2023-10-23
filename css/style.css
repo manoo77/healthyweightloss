@@ -462,11 +462,15 @@ button {
 /* about section end */
 /* blog section start */
 
-
+.test_sec{
+	
+	background-image: url(../images/weight-loss-bg.png);
+	
+}
 .blog_section{
     width: 100%;
     float: left;
-    background-image: url(../images/weight-loss-bg.png);
+    abackground-image: url(../images/weight-loss-bg.png);
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
