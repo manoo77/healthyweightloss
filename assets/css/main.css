@@ -1494,6 +1494,13 @@ a.newer-posts:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
+  h1 {
+    font-size: 3.8vw;
+    margin: 0.67em 0;
+    color: #050505;
+    font-weight: 900;
+  }
+
   .post {
     width: 85%;
     max-width: 100%;
@@ -1543,6 +1550,13 @@ a.newer-posts:hover {
 @media only screen and (max-width: 768px)
 
 {
+
+  h1 {
+    font-size: 3.8vw;
+    margin: 0.67em 0;
+    color: #050505;
+    font-weight: 900;
+  }
 
   .post {
     width: 98%;
@@ -1655,6 +1669,7 @@ a.newer-posts:hover {
   }
   .post .post-thumbnail {
     width: 100%;
+    float:left;
   }
   .post .post-content {
     width: 100%;
