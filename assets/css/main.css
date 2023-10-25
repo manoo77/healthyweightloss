@@ -1632,6 +1632,16 @@ a.newer-posts:hover {
   .content-box {
     padding: 10px;
   }
+
+  h1 {
+    font-size: 3.8vw;
+    margin: 0.67em 0;
+    color: #050505;
+    font-weight: 900;
+  }
+
+
+
   .post {
     width: 98%;
     max-width: 100%;
