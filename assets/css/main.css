@@ -18,8 +18,6 @@
 /* Sections
    ========================================================================== */
 
-
-
 body 
 {
 background-image: none;
@@ -40,33 +38,6 @@ background-size: cover;
   background-position: center;
   margin: 0;
 }
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Add the correct display in IE 9-.
@@ -90,7 +61,6 @@ h1 {
   color: #050505;
   font-weight: 900;
 }
-
 
 h2 {
   font-size: 1.8vw;
@@ -269,7 +239,6 @@ img {
   border-style: none;
 }*/
 
-
 /** added the div to make the logo appears on the middle of page, 
 and added the width to 50% to the img  */
 
@@ -301,7 +270,6 @@ and added the width to 50% to the img  */
   padding:20px;
 }
 
-
 .container-child-2 {
   justify-content: center; 
   width: 100%;
@@ -309,14 +277,11 @@ and added the width to 50% to the img  */
   padding:50px;
 }
 
-
 .background-image{
     height: 102px;
     position: relative;
     display: inline-block;
     }
-
-
 
 /**
  * Hide the overflow in IE.
@@ -880,16 +845,10 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   color: #515151;
-
-  
-  
-  
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
 
 img {
   max-width: 100%;
@@ -996,7 +955,6 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
-  
 }
 
 ::-moz-selection {
@@ -1202,15 +1160,12 @@ table tfoot td {
 }
 
 .aff-copy {
-   
   text-align: center;
   margin: 0;
   padding: 10;
   margin-bottom: 30px;
   color: #0a0a0a;
-
 }
-
 
 /* - to keep the title of page below the site logo - - */
 
@@ -1222,8 +1177,6 @@ table tfoot td {
   float:left; 
   clear: left;
 }
-
-
 
 .post {
   /*max-width: 480px; */
@@ -1269,12 +1222,10 @@ table tfoot td {
   background-size: cover;
   background-position: 50% 50%;
   padding: 3.5rem;
-  
 }
 
 .post .post-content {
   padding: 0.3rem;
-   
 }
 
 .post .post-content .post-date,
@@ -1287,7 +1238,6 @@ table tfoot td {
   font-size: 16px;
   font-weight: 800;
 }
-
 
 .post .post-content p {
   margin-top: 0;
@@ -1533,7 +1483,7 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
   }
   .sidebar footer {
     margin-bottom: 10px;
@@ -1573,7 +1523,6 @@ a.newer-posts:hover {
       font-size: 16px;
       font-weight: 600;
     }
-
 
   .sidebar {
     position: relative;
@@ -1653,8 +1602,6 @@ a.newer-posts:hover {
     color: #050505;
     font-weight: 900;
   }
-
-
 
   .post {
     width: 98%;
