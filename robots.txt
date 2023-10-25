@@ -1,1 +1,1 @@
-Sitemap: thehealthyweightloss.netlify.app/sitemap.xml
+Sitemap: https://bt400.github.io/sitemap.xml
