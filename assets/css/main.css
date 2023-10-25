@@ -1678,7 +1678,8 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title {
     margin: 0 0 5px;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 700;
     
   }
   .post .post-content .post-title a {
